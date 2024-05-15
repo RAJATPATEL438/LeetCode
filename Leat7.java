@@ -18,7 +18,7 @@ class Solution {
     } 
 }
 public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution sol = new Solution();xzczxc
         
         int x1 = 123;
         int result1 = sol.reverse(x1);
