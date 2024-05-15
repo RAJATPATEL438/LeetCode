@@ -1,3 +1,5 @@
+// Reverse Integer
+
 class Solution {
     public int reverse(int x) {
         int reversed = 0;
@@ -15,18 +17,18 @@ class Solution {
         return reversed;
     } 
 }
- // public static void main(String[] args) {
-    //     Solution sol = new Solution();
+public static void main(String[] args) {
+        Solution sol = new Solution();
         
-    //     int x1 = 123;
-    //     int result1 = sol.reverse(x1);
-    //     System.out.println("Input: " + x1 + " Output: " + result1); // Output: 321
+        int x1 = 123;
+        int result1 = sol.reverse(x1);
+        System.out.println("Input: " + x1 + " Output: " + result1); // Output: 321
 
-    //     int x2 = -123;
-    //     int result2 = sol.reverse(x2);
-    //     System.out.println("Input: " + x2 + " Output: " + result2); // Output: -321
+        int x2 = -123;
+        int result2 = sol.reverse(x2);
+        System.out.println("Input: " + x2 + " Output: " + result2); // Output: -321
 
-    //     int x3 = 120;
-    //     int result3 = sol.reverse(x3);
-    //     System.out.println("Input: " + x3 + " Output: " + result3); // Output: 21
-    // }
+        int x3 = 120;
+        int result3 = sol.reverse(x3);
+        System.out.println("Input: " + x3 + " Output: " + result3); // Output: 21
+}
